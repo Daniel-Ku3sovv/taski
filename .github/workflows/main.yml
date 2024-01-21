@@ -87,7 +87,8 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: danielku3sovv/taski_backend:latest
-  
+
+jobs:  
   deploy:
     runs-on: ubuntu-latest
     needs: 
